@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+body{
+    background: pink;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(240, 0, 240);
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow:  1px 1px 1px rgb(63, 63, 63);
+}
+
+a:hover{
+    color: rgb(220, 0, 240);
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow:  1px 1px 1px rgb(63, 63, 63);
+}
+
+#logar{
+    border: 2px solid rgb(156, 0, 156);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#logar:hover{
+    background: rgb(180, 2, 180);
+    color: white;
+}
+
+h1{
+    color: rgb(180, 2, 180);
+    text-shadow: 1px 1px 1px black;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 10px;
+    color: white;
+    text-shadow:  2px 1px 2px black;
+}
+
+span{
+    color: rgb(197, 0, 204);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+img{
+    width: 500px;
+    margin-left: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+button{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15PX;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    width: 50%;
+    background: rgb(197, 0, 204);
+    color: white;
+}
+
+button:hover{
+    background: rgb(168, 2, 168);
+}
+
+
+input{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20PX;
+    border: 1px solid black;
+    font-size: 15px;
+}
